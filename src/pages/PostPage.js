@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import { Card, Container } from "react-bootstrap";
 
 const PostPage = () => {
+    // same state as in NewPostPage component
   const [post, setPost] = useState({
     title: "",
     author: "",
