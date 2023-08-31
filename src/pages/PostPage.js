@@ -15,6 +15,7 @@ const PostPage = () => {
   // useParams extracts URL id
   const { id } = useParams();
 
+  // fetch the specific post data on mount and on URL id change
   useEffect(() => {
     const fetchPost = async () => {
       const res = await axios.get(`http://localhost:5500/posts/${id}`);
