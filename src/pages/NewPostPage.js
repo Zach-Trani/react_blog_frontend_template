@@ -42,7 +42,7 @@ const NewPostPage = () => {
         </Form.Group>
         <Form.Group>
           <Form.label>Content</Form.label>
-          <Form.Control type='text' name='content' rows={5} placeholder='Content' onChange={handleChange} />
+          <Form.Control type='textarea' name='content' rows={5} placeholder='Content' onChange={handleChange} required/>
         </Form.Group>
         <Button variant='primary' type='submit'>
             Create
