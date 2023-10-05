@@ -2,12 +2,20 @@
 This repo houses the frontend for a react blog-style template app.
 To find the backend template visit my repo here: https://github.com/Zach-Trani/react_blog_backend_template.
 
-### npm start
-run the app locally
 
-## Here is a high-level overview of the development procress in order of development.
+### Running the app locally
+Run the app using npm start.
 
-### App.js
-build the app.js skeleton including routes first
 
-### NewPostPage.js
+# Here is a high-level overview of the development procress in order of development.
+
+
+# App.js
+Build the app.js skeleton including routes first.
+
+
+# NewPostPage.js
+A page for creating new posts was then built. User input for title, author, image URL, and content is submitted here. The backend features 
+
+
+# 

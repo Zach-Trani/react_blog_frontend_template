@@ -12,13 +12,15 @@ const NewPostPage = () => {
     content: "",
   });
 
+  // this will route from page to page
   const navigate = useNavigate();
 
+  // updates existing user input state with respective input title and value
   const handleChange = (e) => {
     setPost({ ...post, [e.target.name]: e.target.value });
   };
 
-  // async when using the api (backend)
+  // use async when using the api (backend)
   const handleSubmit = async (e) => {
     e.preventDefault();
     await axios.post("http://localhost:5500/posts", post);
