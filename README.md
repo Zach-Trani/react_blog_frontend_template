@@ -19,3 +19,4 @@ A page for creating new posts was then built. User input for title, author, imag
 
 
 # PostPage.js
+A page for the user to click into a specific post.
